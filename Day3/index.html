@@ -8,225 +8,99 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src='main.js'></script>
 </head>
 
-<style>
-    #braintech{
-        padding-top: 20px;
-        padding-bottom: 25px;
-        color: #000080;
-    }
-    #form1{
-        padding-bottom: 50px;
-    }
-    #nav1{
-        background-image: linear-gradient(to right, #000080, #0000ff);
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-    #iletisim{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    }
-    .form-control{
-        border: rgba(190, 218, 218, 0.267);
-        padding: 20px;
-        background-color: rgba(190, 218, 218, 0.267);
-        font-family: 'Courier New', Courier, monospace;
-    }
-    .form-control:focus{
-        background-color: rgba(190, 218, 218, 0.267);
-    }
-    #select{
-        background-color: rgb(158, 201, 202);
-    }
-    #button{
-        color: floralwhite;
-        padding: 16px 40px;
-        border-radius: 30px;
-        background-image: linear-gradient(to right, #000080, #0000ff);
-    }
-    #button:hover{
-        background-image: linear-gradient(to right, #0000ff, #000080);
-    }
-    .container{
-        padding-top: 50px;
-    }
-    #div4{
-        border-radius: 5px;
-        background-image: linear-gradient(to right, #0000cd, #4876ff);
-    }
-    #div8{
-        padding-left: 50px;
-    }
-    a{
-        font-family:Arial, Helvetica, sans-serif;
-        margin-right: 40px;
-    }
-    a.nav-link{
-        font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-    #navbardiv1{
-        background-image: linear-gradient(to right, #00008b, #0000ff); 
-        padding-top: 5px;
-        padding-bottom: 5px;
-        width: 1531px;
-    }
-    a.footer2{
-        text-decoration: none;
-        font-size: medium;
-        color: #4f4f4f;
-        font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-    p.footerp{
-        color: #4f4f4f;
-        font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-    .footer-ul2-li{
-        display: inline;
-    }
-    .footer-ul2-li-a{
-        text-decoration: none;
-        color: #4f4f4f;
-    }
-    .search {
-        width: 100%;
-        position: relative;
-        display: flex;
-    }
-    .searchTerm {
-        width: 180px;
-        border: none;
-        border-right: none;
-        padding: 15px;
-        height: 45px;
-        border-radius: 25px 0 0 25px;
-        outline: none;
-        color: #d1dad6;
-        background-color: rgb(206, 197, 197);
-    }
-    .searchTerm:focus{
-        color: #00B4CC;
-    }
-    .searchButton {
-        width: 50px;
-        height: 45px;
-        border: 1px solid #080a8a;
-        background: #080a8a;
-        text-align: center;
-        color: white;
-        border-radius: 40px;
-        cursor: pointer;
-        font-size: 20px;
-    }
-    #footerbg{
-        background-image: linear-gradient(to bottom, #e0eeee, white); 
-    }
-    #sedut-pers{
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        margin-top: 30px;
-        color: #4f4f4f;
-    }
-    #we-denounce{
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        font-size: medium;
-        color: #4f4f4f;
-    }
-    #ana-img{
-        background-image: url('https://www.uni-hannover.de/typo3temp/_processed_/e/d/csm_5b69b61ebf81ab55c4cd1a50581513f372b83c50-fp-16-9-0-0_8dff26a57d.jpg');
-    }
+<div class="header">
+    <div class="row" style="background-image: linear-gradient(to bottom, #f0f8ff, rgba(231, 225, 225, 0.842)); ">
+        <div class="col-md-1"></div>
+        <div id="braintech" class="col-md-4">
+            <a href="#">
+                <img src="https://rstheme.com/products/html/braintech/assets/images/logo-dark.png" width="200" height="40">
+            </a>
+        </div>
+        <div class="col-md-7">
+            <div style="margin-top: 20px;" class="row">
+                <div class="col-md-3"></div>
 
-</style>
-
-<body>
-    <div class="header">
-        <div class="row" style="background-image: linear-gradient(to bottom, #f0f8ff, rgba(231, 225, 225, 0.842)); ">
-            <div class="col-md-1"></div>
-            <div id="braintech" class="col-md-4">
-                <a href="#">
-                    <img src="https://rstheme.com/products/html/braintech/assets/images/logo-dark.png" width="200" height="40">
-                </a>
-            </div>
-            <div class="col-md-7">
-                <div style="margin-top: 20px;" class="row">
-                    <div class="col-md-3"></div>
-
-                    <div class="col-md-2">
-                        <span><b>Address</b></span><br>
-                        <span style="font-style: italic;">Niksar-Tokat</span>
-                    </div>
-                    <div class="col-md-2">
-                        <span><b>Email</b></span><br>
-                        <span style="font-style: italic;">info@gmail.com</span>
-                    </div>
-                    <div class="col-md-2">
-                        <span><b>Phone</b></span><br>
-                        <span style="font-style: italic;">0555 888 44 22</span>
-                    </div>
-
-                    <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <span><b>Address</b></span><br>
+                    <span style="font-style: italic;">Niksar-Tokat</span>
                 </div>
-            </div>
-        </div>
-        <div id="navbardiv1" class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul id="menu" class="navbar-nav">
-                            <li class="nav-item active">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Home</b> <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>About</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Services</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Pages</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Blog</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Contact</b></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="col-md-3"></div>  
-            <div class="col-md-3">
-                <ul style="padding-top: 15px;" class="footer-social md-mb-30">
-                    <li style="display: inline; margin-right: 20px;">
-                        <i style="color: #d1dad6;" class="fa fa-search"></i> 
-                    </li>
-                    |
-                    <li style="display: inline; margin-left: 20px;">
-                        <a href="#" target="_blank"><span><i style="color: #d1dad6;" class="fa fa-facebook"></i></span></a>
-                    </li>
-                    <li style="display: inline;"> 
-                        <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-twitter"></i></span></a> 
-                    </li>
+                <div class="col-md-2">
+                    <span><b>Email</b></span><br>
+                    <span style="font-style: italic;">info@gmail.com</span>
+                </div>
+                <div class="col-md-2">
+                    <span><b>Phone</b></span><br>
+                    <span style="font-style: italic;">0555 888 44 22</span>
+                </div>
 
-                    <li style="display: inline;"> 
-                        <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-pinterest-p"></i></span></a> 
-                    </li>
-                    <li style="display: inline;"> 
-                        <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-instagram"></i></span></a> 
-                    </li>
-                </ul>
+                <div class="col-md-3"></div>
             </div>
-        </div>
-        <div id="ana-img" style="height: 400px; text-align: center;">
-            <h1 style="transform: translateY(350%);">Contact</h1>
-            <h5 style="transform: translateY(700%);">Home/Contact</h5>
         </div>
     </div>
+    <div id="navbardiv1" class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul id="menu" class="navbar-nav">
+                        <li class="nav-item active">
+                            <a style="color: floralwhite;" class="nav-link" href="#"><b>Home</b> <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: floralwhite;" class="nav-link" href="#"><b>About</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: floralwhite;" class="nav-link" href="#"><b>Services</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: floralwhite;" class="nav-link" href="#"><b>Pages</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: floralwhite;" class="nav-link" href="/Day4/blog.html"><b>Blog</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: floralwhite;" class="nav-link" href="#"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-3"></div>  
+        <div class="col-md-3">
+            <ul style="padding-top: 15px;" class="footer-social md-mb-30">
+                <li style="display: inline; margin-right: 20px;">
+                    <i style="color: #d1dad6;" class="fa fa-search"></i> 
+                </li>
+                |
+                <li style="display: inline; margin-left: 20px;">
+                    <a href="#" target="_blank"><span><i style="color: #d1dad6;" class="fa fa-facebook"></i></span></a>
+                </li>
+                <li style="display: inline;"> 
+                    <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-twitter"></i></span></a> 
+                </li>
 
+                <li style="display: inline;"> 
+                    <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-pinterest-p"></i></span></a> 
+                </li>
+                <li style="display: inline;"> 
+                    <a href="# " target="_blank"><span><i style="color: #d1dad6;" class="fa fa-instagram"></i></span></a> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="ana-img" style="height: 400px; text-align: center;">
+        <h1 style="transform: translateY(350%);">Contact</h1>
+        <h5 style="transform: translateY(700%);">Home/Contact</h5>
+    </div>
+</div>
+
+<body>
+    
     <form id="form1" class="m-3">
         <h4 id="iletisim" style="text-align: center;">İletişim Formu</h4>
 
