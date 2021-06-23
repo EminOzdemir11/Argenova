@@ -3,6 +3,8 @@ const name = document.getElementById('name');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const phone = document.getElementById('phone');
+const button = document.getElementById('button');
+
 
 form1.addEventListener('submit', function(e){
     e.preventDefault();
@@ -16,12 +18,14 @@ const checkInputs = () => {
     const passwordValue = password.value.trim();
     const phoneValue = phone.value.trim();   
 
+
     if (nameValue === '') {
         setErrorFor(name,'İsim boş bırakılamaz')
         console.log('başarısız')
     }else{
         setSuccessFor(name)
         console.log('başarılı');
+        
     }
 
     if (emailValue === '') {
@@ -40,6 +44,7 @@ const checkInputs = () => {
     else{
         setSuccessFor(password)
         console.log('başarılı');
+
     }
 
     if (phoneValue === '') {
@@ -50,6 +55,17 @@ const checkInputs = () => {
         setSuccessFor(phone)
         console.log('başarılı');
     }
+    if (nameValue !== '' && emailValue !== '' && passwordValue !== '' && phoneValue !== '') {
+        Swal.fire(
+            'Başarılı',
+            'kayıt başarıyla tamamlandı',
+            'success'
+        )  
+        console.log('swal fire is success');
+    }  else{
+        console.log('swal fire is denied');
+    } 
+    
 }
 
 const setErrorFor = (input, message) =>{
@@ -63,3 +79,11 @@ function setSuccessFor(input){
     const formControl = input.parentElement;
     formControl.className = 'form-control success';
 }
+       
+
+
+
+    
+
+
+
