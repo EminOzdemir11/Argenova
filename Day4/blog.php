@@ -46,33 +46,48 @@
         </div>
         <div id="navbardiv1" class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul id="menu" class="navbar-nav">
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Home</b> <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>About</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Services</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Pages</b></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a style="color: floralwhite;" class="nav-link" href="/Day4/blog.html"><b>Blog</b></a>
-                            </li>
-                            <li class="nav-item">
-                                <a style="color: floralwhite;" class="nav-link" href="#"><b>Contact</b></a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="#"><b>Home</b></a>
+                            <ul>
+                                <li><a href="#">Multipages</a></li>
+                                <li><a href="#">Onepages</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><b>About</b></a></li>
+                        <li><a href="#"><b>Services</b></a>
+                            <ul>
+                                <li><a href="#">Software Development</a></li>
+                                <li><a href="#">Web Development </a></li>
+                                <li><a href="#">Analytic Solutions</a></li>
+                                <li><a href="#">Cloud and DevOps</a></li>
+                                <li><a href="#">Project Desing</a></li>
+                                <li><a href="#">Data Center</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><b>Pages</b></a>
+                            <ul>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Single Team</a></li>
+                                <li><a href="#">Case Studios</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Faq</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><b>Blog</b></a>
+                            <ul>
+                                <li><a href="/Day4/blog.html">Blog</a></li>
+                                <li><a href="/Day5/blogDetails.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><b>Contact</b></a></li>
+                    </ul>
                 </nav>
             </div>
-            <div class="col-md-3"></div>  
+            <div class="col-md-2"></div>  
             <div class="col-md-3">
                 <ul style="padding-top: 15px;" class="footer-social md-mb-30">
                     <li style="display: inline; margin-right: 20px;">
