@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="/Css/style.css">
+    <link href="../Css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src='main.js'></script>
 </head>
@@ -229,3 +229,96 @@
     </form>   
     <script src="/Script/script.js"></script>
 </body>
+
+<footer>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24238.931625516747!2d36.92393390631882!3d40.58870312809484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407d1ab91ddb8c95%3A0x3ec6b394fa23e1ff!2sNiksar%2C%20Tokat!5e0!3m2!1str!2str!4v1623831079520!5m2!1str!2str" width="1525" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div id="footerbg">
+        <div style="padding-top: 30px;" class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <th >
+                    <a href="#">
+                        <img src="https://rstheme.com/products/html/braintech/assets/images/logo-dark.png" width="150" height="40">
+                    </a>
+                </th>
+                <p id="sedut-pers">Sedut perspiciatis unde omnis iste <br> natus error sitlutem acc usantium <br> doloremque denounce with illo <br> inventore veritatis</p>
+                <br>
+                <ul class="footer-social md-mb-30">  
+                    <li style="display: inline;"> 
+                        <a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a> 
+                    </li>
+                    <li style="display: inline;"> 
+                        <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
+                    </li>
+
+                    <li style="display: inline;"> 
+                        <a href="# " target="_blank"><span><i class="fa fa-pinterest-p"></i></span></a> 
+                    </li>
+                    <li style="display: inline;"> 
+                        <a href="# " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
+                    </li>
+                                                             
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4 style="margin-bottom: 30px;">IT Services</h4>
+                <p></p><a class="footer2" href="#">Software Development</a></p>
+                <p></p><a class="footer2" href="#">Web Development</a></p>
+                <p></p><a class="footer2" href="#">Analytic Solutions</a></p>
+                <p></p><a class="footer2" href="#">Cloud and DevOps</a></p>
+                <p></p><a class="footer2" href="#">Project Desing</a></p>
+                
+            </div>
+            <div class="col-md-3">
+                <h4 style="margin-bottom: 30px;">Contact Info</h4>
+                <p class="footerp">374 FA Tower, William S Blvd <br> 2721, IL, USA</p>
+                <p class="footerp">0543 754 65 24</p>
+                <p class="footerp">info@gmail.com</p>
+                <p class="footerp">Opening Hours: 10:00 - 18:00</p> 
+            </div>
+            <div class="col-md-3">
+                <h4 style="margin-bottom: 30px;">Newsletter</h4>
+                <p id="we-denounce">We denounce with righteous and in <br> and dislike men who are so beguiled <br> and demo realized.</p>
+                <br>
+                <div class="wrap">
+                    <div class="search">
+                       <input type="text" class="searchTerm" placeholder="Your email address">
+                       <div style="background-color: rgb(206, 197, 197); border-bottom-right-radius: 30px; border-top-right-radius: 30px;">
+                            <button type="submit" class="searchButton">
+                                <i class="fa fa-search"></i>
+                            </button>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="footer-bottom">
+            <div class="container">                    
+                <div class="row y-middle">
+                    <div class="col-lg-5 text-right md-mb-10 order-last">
+                        <ul class="copy-right-menu">
+                            <li class="footer-ul2-li"><a class="footer-ul2-li-a" href="#">Home</a></li>
+                            <li class="footer-ul2-li"><a class="footer-ul2-li-a" href="#">About</a></li>
+                            <li class="footer-ul2-li"><a class="footer-ul2-li-a" href="#">Blog</a></li>
+                            <li class="footer-ul2-li"><a class="footer-ul2-li-a" href="#">Shop</a></li>
+                            <li class="footer-ul2-li"><a class="footer-ul2-li-a" href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="copyright">
+                            <p>&copy; 2021 All Rights Reserved. Developed By <a style="text-decoration: none; color: #4f4f4f" href="http://rstheme.com/">RSTheme</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</footer>
