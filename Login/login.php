@@ -29,7 +29,7 @@
         if ($username !== $db_username && $password !== $db_password) {
             header("Location: login.php");
         }
-        else if ($username == $db_username && $password == $db_password) {
+        else if ($username === $db_username && $password === $db_password) {
             
           $_SESSION["username"] = $db_username;
           $_SESSION["password"] = $db_password;
@@ -58,46 +58,40 @@
 
     <title>Login</title>
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- <link href="../Css/login.css" rel="stylesheet"> -->
 
   </head>
 
   <body>
 
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+        <br><br>
+          <form name="login" method="post">
 
-  <form name="login" method="post">
+              <table>
+                  <tr>
+                      <td>Kullanıcı Adı</td>
+                      <td><input type="text" name="username" /></td>
+                  </tr>
+                  
+                  <tr>
+                      <td>Şifre</td>
+                      <td><input type="password" name="password" /></td>
+                  </tr>
+                  
+                  <tr>
+                      <td></td>
+                      <td><input type="submit" name="login" value="Giriş" /></td>
+                  </tr>
+              </table>
 
-      <table>
-          <tr>
-              <td>Kullanıcı Adı</td>
-              <td><input type="text" name="username" /></td>
-          </tr>
-          <tr>
-              <td>Şifre</td>
-              <td><input type="password" name="password" /></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td><input type="submit" name="login" value="Giriş" /></td>
-          </tr>
-      </table>
-
-  </form>
-
-   <!-- <div class="outer-box">
-    <div class="login-box">
-      <h4 class="login-text">Giriş</h4>
-      
-      <label for="username">Kullanıcı Adı:</label>
-      <input name="username" placeholder="Kullanıcı Adı"><br><br>
-      <label for="password">Şifre:</label>
-      <input name="password" placeholder="Şifre">
-
-      <button class="btn btn-primary btn-block" id="btn-login" name="login" type="submit">Login</button> 
-      
+          </form>
+      </div>
     </div>
-  </div> -->
+</div> 
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
