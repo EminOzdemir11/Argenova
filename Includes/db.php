@@ -11,4 +11,7 @@ if (!$conn) {
     die("Bağlantı hatası:" . mysqli_connect_error());
 }
 
+
+
+
 ?>

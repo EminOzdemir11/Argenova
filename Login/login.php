@@ -34,7 +34,7 @@
           $_SESSION["username"] = $db_username;
           $_SESSION["password"] = $db_password;
           
-          header("Location: ../Day4/blog.php");
+          header("Location: ../AdminPanel/adminPanel.php");
         }
         else{
             header("Location: login.php");
